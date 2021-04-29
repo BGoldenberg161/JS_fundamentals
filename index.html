@@ -9,6 +9,27 @@
     <title>Study</title>
 </head>
 <body>
-    <h1>Study Sesh</h1>
+    <h1>Practice Form</h1>
+
+    <h2>Contact Us</h2>
+    <form action="/my-handling-form-case" method="POST">
+       <ul>
+           <li>
+               <label for="name">Name</label>
+               <input type="text" id="name" name="name"/>
+           </li>
+           <li>
+               <label for="email">Email</label>
+               <input required type="email" id="email" name="email" value="example@email.com"/>
+           </li>
+           <li>
+               <label for="message">Message</label>
+               <textarea id="message" name="message">Your message here</textarea>
+           </li>
+           <li>
+               <button type="submit">Send your message</button>
+           </li>
+       </ul>
+    </form>
 </body>
 </html>

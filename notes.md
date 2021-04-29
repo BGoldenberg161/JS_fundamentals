@@ -35,3 +35,13 @@ Email:   [example@test.com]
 Message: [Your request here]
 
          {Send your message}
+
+
+button takes a type attribute:
+    can have 3 values
+        1. submit
+            -send form data to webpage defined by action attribute of form element
+        2. reset
+            -reset all form control to default value
+        3. button
+            -for custom defined button functionality
