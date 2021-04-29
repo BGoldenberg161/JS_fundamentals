@@ -1,0 +1,60 @@
+form {
+    /* Center form on page */
+    margin: 0 auto;
+    width: 500px;
+
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid blue;
+    border-radius: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* comma seperated to select both form & li */
+form,li {
+    margin-top: 1em;
+}
+
+label {
+    /* uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input,textarea {
+    /* enforce same text settings (textarea has default monospace font, differing from input)*/
+    font: 1em sans-serif;
+
+    /* uniform field size */
+    width: 300px;
+    box-sizing: border-box;
+    
+    /* match form borders */
+    border: 1px solid blue;
+}
+
+input:focus, textarea:focus {
+    border-color: rgb(193, 108, 233, 0.7);
+    outline: none;
+}
+
+textarea {
+    /* align multi-line text fields with their labels */
+    vertical-align: top;
+    height: 5em;
+}
+
+.button {
+    /* align button with text fields */
+    padding-left: 90px;
+}
+
+button {
+    /* extra margin == space between labels and inputs */
+    margin-left: .35em;
+}
