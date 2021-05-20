@@ -9,9 +9,8 @@ const fadeIn = keyframes`
     }
 `;
 
-
-
 const FadeIn = ({duration = 300, delay = 0, children, ...delegated}) => {
+
     return(
         <Wrapper {...delegated} 
             style={{...(delegated.style || {}),
